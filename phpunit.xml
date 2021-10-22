@@ -1,0 +1,13 @@
+<phpunit
+    colors="true"
+    verbose="true"
+>
+  <testsuites>
+    <testsuite name="php-unit-tests">
+      <directory suffix="Test.php">tests</directory>
+    </testsuite>
+  </testsuites>
+  <php>
+    <includePath>src</includePath>
+  </php>
+</phpunit>

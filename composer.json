@@ -1,0 +1,17 @@
+{
+    "name": "greg/php-unit-tests",
+    "autoload": {
+        "psr-4": {
+            "Greg\\PhpUnitTests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gregory Charmier",
+            "email": "gregory.charmier@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
