@@ -8,7 +8,7 @@ include(dirname(__FILE__) . "/../src/getNumOfWords.php");
 class getNumOfWordsTest extends TestCase
 {
 
-    public function test_sentence_with_normal_space(): void
+    public function test_sentence_with_normal_space()
     {
         // Bloc act
         $str = "Ceci est une phrase normale.";
@@ -18,7 +18,7 @@ class getNumOfWordsTest extends TestCase
         $this->assertEquals(5, $count);
     }
 
-    public function test_sentence_with_many_spaces(): void
+    public function test_sentence_with_many_spaces()
     {
         // Bloc act
         $str = "Ceci         est        une phrase       normale.";
