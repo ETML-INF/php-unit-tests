@@ -1,9 +1,9 @@
 <?php
-include(__DIR__ . '/../nombreEntier.php');
+include(__DIR__ . '/../src/primeNumber.php');
 
 use PHPUnit\Framework\TestCase;
 
-final class PrimeNumberTest extends TestCase
+final class primeNumberTest extends TestCase
 {
     public function testPrimeNumber(): void
     {
