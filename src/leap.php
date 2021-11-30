@@ -7,6 +7,7 @@
  * - soit divisible par 4 mais pas par 100 
  * - soit divisible par 400
  */
-function leap($year) {
-	return (is_int($year/4) && !is_int($year/100)) || is_int($year/400);
+function leap($year)
+{
+	return (is_int($year / 4) && !is_int($year / 100)) || is_int($year / 400);
 }

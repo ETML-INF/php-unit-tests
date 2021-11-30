@@ -6,14 +6,13 @@
 function GetNumOfWords($str)
 {
     $count = 0;
-    if($str != ""){
-        $final = explode(" ",$str);
-        foreach($final as $value)
-        if($value != "")
-        ++$count;
+    if ($str != "") {
+        $final = explode(" ", $str);
+        foreach ($final as $value)
+            if ($value != "")
+                ++$count;
         return $count;
-    }
-    else{
+    } else {
         return 0;
     }
 }

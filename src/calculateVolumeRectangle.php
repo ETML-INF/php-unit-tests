@@ -5,4 +5,3 @@
         $volume = $length * $width * $height;   //Calcul le volume  d'un rectangle
         return $volume; //Indique la valeur à renvoyer
     }
-?>

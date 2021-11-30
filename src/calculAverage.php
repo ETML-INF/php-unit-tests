@@ -10,5 +10,4 @@
             $sum += $note;
         }
         return $sum / count($notesArray);
-    } 
-?>
+    }

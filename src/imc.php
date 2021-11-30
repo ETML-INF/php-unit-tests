@@ -12,4 +12,3 @@ function IMC($poids, $taille){
     $imc = $poids / ($taille * $taille); //calcule de l'imc
     return ceil($imc * 10000); //retourne l'imc en entier
 }
-?>
