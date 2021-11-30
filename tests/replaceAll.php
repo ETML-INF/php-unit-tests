@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-include(dirname(__FILE__) . "/../src/StringReplacePHP.php");
+include(dirname(__FILE__) . "/../src/replaceAll.php");
 
 
 class getNumOfWordsTest extends TestCase
@@ -14,8 +14,9 @@ class getNumOfWordsTest extends TestCase
         $subject = "E 126 ALL01 E02_NAS";
         $search  = ' ';
         $replace = '-';
+        $result = replaceAll($search, $replace, $subject);
 
         // Bloc assert
-        $this->assertEquals("E-126-ALL01-E02_NAS", str_replace($search, $replace, $subject));
+        $this->assertEquals("E-126-ALL01-E02_NAS", $result);
     }
 }
