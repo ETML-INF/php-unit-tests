@@ -1,12 +1,12 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
 
-$path = __DIR__."\..\src\countLetterInSentence.php";
-require_once($path);
+require_once(__DIR__ . "\..\src\countLetterInSentence.php");
 
-final class CountLetterInSentenceTest extends TestCase
+final class countLetterInSentenceTest extends TestCase
 {
-    public function testCountNumberOfT() : void
+    public function testCountNumberOfT(): void
     {
         $numberA = countLetterInSentence("Salut à tous", 't');
         printf($numberA);

@@ -13,4 +13,3 @@ function primeNumber($the_integer) {
     }
     return TRUE;
 }
-?>
