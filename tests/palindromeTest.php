@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 $path = __DIR__."\..\src\palindrome.php";
 require_once($path);
 
-final class PalindromeTest extends TestCase
+final class palindromeTest extends TestCase
 {
     public function testPalindrome(): void
     {
