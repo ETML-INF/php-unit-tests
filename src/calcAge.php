@@ -12,5 +12,6 @@ function calcAge($birthDate){
     // Calcul l'âge de la personne
     $age = $actualYear - $birthYear;
 
+    // un commentaire de test de commit
     return $age;
 }
